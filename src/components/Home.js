@@ -9,29 +9,38 @@ const Home = () => {
         <div className="left">
           <h1>Cea Roofing</h1>
           <p>We are the Clean Energy America roofing division.</p>
-          <button>See Our Best Work</button>
+          <Link to="/services" className="button">
+            See Our Best Work
+          </Link>
         </div>
         <div className="right">
           <img src="./photos/roofing-main-small.webp" alt="roofing" />
         </div>
       </div>
-      <div className="case-study">
+      <Link to="/services" className="case-study">
         <div className="left">
           <h1>Case Study</h1>
           <button>View Case Study</button>
           <h4>Services</h4>
-          <Link to="/service-one" className="link">
-            Service One
-          </Link>
-          <Link to="/service-two" className="link">
-            Service Two
-          </Link>
-          <Link to="/service-three" className="link">
-            Service Three
-          </Link>
+          <ul>
+            <li to="/service-one">Service One</li>
+            <li to="/service-two">Service Two</li>
+            <li to="/service-three">Service Three</li>
+          </ul>
         </div>
-        <div className="right"></div>
-      </div>
+        <div className="right">
+          <img src="./photos/roofing2-main.webp" alt="roofer" width="325" />
+          {/* <video
+            src=".videos/roof-video.webm"
+            poster="movie.jpg"
+            controls
+            autoPlay
+          >
+            This is fallback content to display for user agents that do not
+            support the video tag.
+          </video> */}
+        </div>
+      </Link>
     </>
   )
 }

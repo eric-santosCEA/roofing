@@ -33,16 +33,22 @@
     font-size: 2rem;
   }
 }
-.hero .left button {
+.hero .left .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Montserrat Alternates, sans-serif;
   border: none;
   cursor: pointer;
   background-color: #4a3433;
   color: whitesmoke;
-  border-radius: 9px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 15rem;
+  height: 2rem;
 }
 @media screen and (min-width: 415px) {
-  .hero .left button {
+  .hero .left .button {
     margin-top: 1rem;
     height: 2rem;
   }
@@ -59,19 +65,40 @@
     margin-top: 0;
   }
 }
+.case-study {
+  margin-bottom: 2rem;
+  background-color: whitesmoke;
+  text-decoration: none;
+  color: black;
+}
+@media screen and (min-width: 415px) {
+  .case-study {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+  }
+}
 .case-study .left {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 50vh;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 415px) {
+  .case-study .left {
+    width: 20%;
+    height: 80vh;
+  }
 }
 .case-study .left h1 {
   font-size: 4rem;
 }
 .case-study .left button {
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #4a3433;
   color: whitesmoke;
   font-family: Montserrat Alternates, sans-serif;
@@ -82,9 +109,31 @@
   border-bottom: 1px solid black;
   margin: 1rem 0;
 }
-.case-study .left .link {
+.case-study .left ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.case-study .left ul li {
   cursor: pointer;
   font-size: 2rem;
   text-decoration: none;
+  list-style: none;
   color: black;
+}
+.case-study .right {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 415px) {
+  .case-study .right {
+    height: 80vh;
+    width: 45%;
+  }
+}
+@media screen and (min-width: 415px) {
+  .case-study .right img {
+    width: auto;
+  }
 }
