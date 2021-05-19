@@ -1,0 +1,53 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin: 1rem;
+  @media screen and (min-width: 415px) {
+    flex-flow: row wrap;
+    margin-top: 3rem;
+  }
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    @media screen and (min-width: 415px) {
+      width: 45%;
+      height: 80vh;
+    }
+    h1 {
+      @media screen and (min-width: 415px) {
+        font-size: 4rem;
+      }
+    }
+    p {
+      @media screen and (min-width: 415px) {
+        font-size: 2rem;
+      }
+    }
+    button {
+      font-family: Montserrat Alternates, sans-serif;
+      border: none;
+      cursor: pointer;
+      background-color: green;
+      color: whitesmoke;
+      border-radius: 9px;
+      @media screen and (min-width: 415px) {
+        margin-top: 1rem;
+        height: 2rem;
+      }
+    }
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    @media screen and (min-width: 415px) {
+      width: 45%;
+      height: 80vh;
+      margin-top: 0;
+    }
+  }
+}
