@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  margin: 1rem;
+  margin: 0 0.5rem 1rem 0.5rem;
 }
 @media screen and (min-width: 415px) {
   .hero {
@@ -37,7 +37,7 @@
   font-family: Montserrat Alternates, sans-serif;
   border: none;
   cursor: pointer;
-  background-color: green;
+  background-color: #4a3433;
   color: whitesmoke;
   border-radius: 9px;
 }
@@ -58,4 +58,33 @@
     height: 80vh;
     margin-top: 0;
   }
+}
+.case-study .left {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.case-study .left h1 {
+  font-size: 4rem;
+}
+.case-study .left button {
+  border: none;
+  border-radius: 10px;
+  background-color: #4a3433;
+  color: whitesmoke;
+  font-family: Montserrat Alternates, sans-serif;
+  height: 2rem;
+}
+.case-study .left h4 {
+  font-size: 2rem;
+  border-bottom: 1px solid black;
+  margin: 1rem 0;
+}
+.case-study .left .link {
+  cursor: pointer;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
 }
