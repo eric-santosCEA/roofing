@@ -9,8 +9,8 @@ const navbar = () => {
         <img src="./photos/roofing50x50.webp" alt="logo" />
       </Link>
       <div className="links">
-        <Link to="/work" className="link">
-          Work
+        <Link to="/services" className="link">
+          Services
         </Link>
         <Link to="/about" className="link">
           About

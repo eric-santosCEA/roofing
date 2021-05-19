@@ -21,12 +21,6 @@ const Home = () => {
         <div className="left">
           <h1>Case Study</h1>
           <button>View Case Study</button>
-          <h4>Services</h4>
-          <ul>
-            <li to="/service-one">Service One</li>
-            <li to="/service-two">Service Two</li>
-            <li to="/service-three">Service Three</li>
-          </ul>
         </div>
         <div className="right">
           <img src="./photos/roofing2-main.webp" alt="roofer" width="325" />
