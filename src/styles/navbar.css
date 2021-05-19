@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (min-width: 415px) {
+  .navbar {
+    margin-top: 5rem;
+  }
+}
+.navbar .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+@media screen and (min-width: 415px) {
+  .navbar .links {
+    justify-content: flex-end;
+  }
+}
+.navbar .links .link {
+  justify-content: center;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 415px) {
+  .navbar .links .link {
+    margin: 0 2rem;
+  }
+}
+.navbar .links .link .link:hover {
+  color: blue;
+}

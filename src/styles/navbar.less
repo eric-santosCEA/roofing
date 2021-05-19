@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+
+  @media screen and (min-width: 415px) {
+    margin-top: 5rem;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    @media screen and (min-width: 415px) {
+      justify-content: flex-end;
+    }
+    .link {
+      justify-content: center;
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: black;
+      font-size: 1.5rem;
+      @media screen and (min-width: 415px) {
+        margin: 0 2rem;
+      }
+      .link:hover {
+        color: blue;
+      }
+    }
+  }
+}
