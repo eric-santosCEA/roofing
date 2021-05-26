@@ -1,0 +1,41 @@
+import React from 'react'
+import Navbar from './Navbar'
+import '../styles/ourWork.css'
+
+const OurWork = () => {
+  return (
+    <div>
+      <Navbar />
+      <section className="images">
+        <img src="./photos/roofing-small/roofing1.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing2.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing3.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing4.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing5.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing6.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing7.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing8.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing9.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing10.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing11.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing12.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing13.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing14.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing15.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing16.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing17.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing18.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing19.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing20.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing21.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing22.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing23.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing24.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing25.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing26.webp" alt="roofing" />
+        <img src="./photos/roofing-small/roofing27.webp" alt="roofing" />
+      </section>
+    </div>
+  )
+}
+export default OurWork

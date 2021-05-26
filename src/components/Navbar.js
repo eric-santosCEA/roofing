@@ -12,10 +12,17 @@ const Navbar = () => {
   return (
     <>
       <Link to="/">
-        <img src="./photos/roofing50x50.webp" alt="logo" className="logo" />
+        <img
+          src="./photos/roofing-small/roofing50x50.webp"
+          alt="logo"
+          className="logo"
+        />
       </Link>
 
       <div className={active ? 'open' : 'links'}>
+        <Link to="/our-work" className="link">
+          <h1>Our Work</h1>
+        </Link>
         <Link to="/services" className="link">
           <h1>Services</h1>
         </Link>
