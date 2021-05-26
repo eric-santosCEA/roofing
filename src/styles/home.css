@@ -20,6 +20,7 @@
   flex-flow: column;
   color: whitesmoke;
   height: 100vh;
+  margin: 0 1rem;
   background-image: url('../images/roofing2-main.webp');
   background-position: center;
   /* Center the image */
@@ -49,13 +50,13 @@
   }
 }
 .banner .location {
-  height: 45vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
   background-color: whitesmoke;
   margin: 1rem 0;
+  height: 45vh;
 }
 @media screen and (min-width: 1058px) {
   .banner .location {
@@ -67,16 +68,16 @@
   padding: 0 1rem;
 }
 .banner .location h4 {
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 .banner .inspection {
-  height: 45vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
   background-color: whitesmoke;
-  margin: 1rem 0;
+  margin: 1rem;
+  height: 45vh;
 }
 @media screen and (min-width: 1058px) {
   .banner .inspection {
@@ -95,6 +96,7 @@
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  margin: 0 1rem;
   padding: 1rem;
   height: 100vh;
   color: whitesmoke;
