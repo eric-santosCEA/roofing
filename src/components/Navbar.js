@@ -20,15 +20,19 @@ const Navbar = () => {
       </Link>
 
       <div className={active ? 'open' : 'links'}>
-        <Link to="/our-work" className="link">
-          <h1>Our Work</h1>
-        </Link>
         <Link to="/services" className="link">
           <h1>Services</h1>
         </Link>
         <Link to="/contact" className="link">
           <h1>Contact</h1>
         </Link>
+        <Link to="/our-work" className="link">
+          <h1>Our Work</h1>
+        </Link>
+        <Link to="/team" className="link">
+          <h1>Meet The Team</h1>
+        </Link>
+
         <Link to="/about" className="link">
           <h1>Careers</h1>
         </Link>
