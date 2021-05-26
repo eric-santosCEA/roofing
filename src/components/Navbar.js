@@ -11,23 +11,22 @@ const Navbar = () => {
 
   return (
     <>
-      <div>
-        <Link to="/" className="logo">
-          <img src="./photos/roofing50x50.webp" alt="logo" />
-        </Link>
+      <Link to="/">
+        <img src="./photos/roofing50x50.webp" alt="logo" className="logo" />
+      </Link>
 
-        <div className={active ? 'open' : 'links'}>
-          <Link to="/services" className="link">
-            <h1>Services</h1>
-          </Link>
-          <Link to="/contact" className="link">
-            <h1>Contact</h1>
-          </Link>
-          <Link to="/about" className="link">
-            <h1>Careers</h1>
-          </Link>
-        </div>
+      <div className={active ? 'open' : 'links'}>
+        <Link to="/services" className="link">
+          <h1>Services</h1>
+        </Link>
+        <Link to="/contact" className="link">
+          <h1>Contact</h1>
+        </Link>
+        <Link to="/about" className="link">
+          <h1>Careers</h1>
+        </Link>
       </div>
+
       <div className="icon">
         <AiOutlineMenu size="3rem" onClick={handleClick} />
       </div>
