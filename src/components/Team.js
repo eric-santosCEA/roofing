@@ -1,10 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar'
+import '../styles/team.css'
 
 const Team = () => {
   return (
-    <div>
+    <>
       <Navbar />
+      <section className="banner">
+        <h1>Meet The Team</h1>
+      </section>
       <section className="images">
         <img
           src="./photos/team-small/team1.webp"
@@ -67,7 +71,7 @@ const Team = () => {
           height="300"
         />
       </section>
-    </div>
+    </>
   )
 }
 export default Team

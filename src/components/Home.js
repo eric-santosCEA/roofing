@@ -1,6 +1,7 @@
 import React, { lazy } from 'react'
 import '../styles/home.css'
 import { GoLocation } from 'react-icons/go'
+import { RiFilePaperLine } from 'react-icons/ri'
 import Footer from './Footer'
 const Navbar = lazy(() => import('./Navbar.js'))
 
@@ -24,6 +25,7 @@ const Home = () => {
           <h4>Roofing services in your area</h4>
         </div>
         <div className="inspection">
+          <RiFilePaperLine size="2rem" />
           <h1>Free Tarp Installations</h1>
           <h4>Schedule free</h4>
         </div>

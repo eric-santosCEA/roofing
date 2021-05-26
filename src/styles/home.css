@@ -37,12 +37,15 @@
   padding: 0 1rem;
 }
 .banner {
-  margin: 1rem;
-  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
 }
 @media screen and (min-width: 1058px) {
   .banner {
-    margin: 0 15rem;
+    justify-content: center;
+    flex-flow: row wrap;
   }
 }
 .banner .location {
@@ -54,6 +57,18 @@
   background-color: whitesmoke;
   margin: 1rem 0;
 }
+@media screen and (min-width: 1058px) {
+  .banner .location {
+    width: 40rem;
+    margin: 1rem;
+  }
+}
+.banner .location h1 {
+  padding: 0 1rem;
+}
+.banner .location h4 {
+  padding: 0 1rem;
+}
 .banner .inspection {
   height: 45vh;
   display: flex;
@@ -63,6 +78,18 @@
   background-color: whitesmoke;
   margin: 1rem 0;
 }
+@media screen and (min-width: 1058px) {
+  .banner .inspection {
+    width: 40rem;
+    margin: 1rem;
+  }
+}
+.banner .inspection h1 {
+  padding: 0 1rem;
+}
+.banner .inspection h4 {
+  padding: 0 1rem;
+}
 .about {
   display: flex;
   justify-content: center;
@@ -71,7 +98,7 @@
   padding: 1rem;
   height: 100vh;
   color: whitesmoke;
-  background-image: url('../images/roofing-main-small.webp');
+  background-image: url('../images/roofing-full-size.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,8 +110,17 @@
 }
 @media screen and (min-width: 1058px) {
   .about {
-    background-image: url('../images/roofing-full-size.jpg');
-    margin: 0 30rem;
+    background-image: url('../images/full2.jpg');
+  }
+}
+@media screen and (min-width: 1058px) {
+  .about h4 {
+    padding: 0 20rem;
+  }
+}
+@media screen and (min-width: 1058px) {
+  .about p {
+    padding: 1rem 20rem;
   }
 }
 .systems {
