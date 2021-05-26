@@ -105,7 +105,7 @@
 }
 @media screen and (min-width: 768px) {
   .about {
-    margin: 5rem;
+    margin: 0 15rem;
   }
 }
 @media screen and (min-width: 1058px) {
@@ -161,17 +161,40 @@
   align-items: center;
   flex-flow: column;
 }
-.contact {
+.contact h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  padding: 1rem;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 1058px) {
+  .contact h1 {
+    margin: 2rem 0;
+  }
+}
+.contact .addresses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin: 5rem 0;
   height: auto;
 }
-.contact address {
+.contact .addresses address {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  margin: 1rem 0;
+}
+@media screen and (min-width: 1058px) {
+  .contact .addresses address {
+    margin: 0 5rem;
+  }
+}
+@media screen and (min-width: 1058px) {
+  .contact .addresses {
+    flex-flow: row wrap;
+  }
 }

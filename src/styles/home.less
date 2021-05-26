@@ -92,7 +92,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   @media screen and (min-width: 768px) {
-    margin: 5rem;
+    margin: 0 15rem;
   }
   @media screen and (min-width: 1058px) {
     background-image: url('../images/full2.jpg');
@@ -143,16 +143,35 @@
   }
 }
 .contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  padding: 1rem;
-  height: auto;
-  address {
+  h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
+    margin-top: 2rem;
+    @media screen and (min-width: 1058px) {
+      margin: 2rem 0;
+    }
+  }
+  .addresses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 5rem 0;
+    height: auto;
+    address {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+      margin: 1rem 0;
+      @media screen and (min-width: 1058px) {
+        margin: 0 5rem;
+      }
+    }
+    @media screen and (min-width: 1058px) {
+      flex-flow: row wrap;
+    }
   }
 }
