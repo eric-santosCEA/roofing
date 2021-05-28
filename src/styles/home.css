@@ -27,6 +27,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100rem;
+  margin: 1rem;
 }
 .hero h4 {
   padding: 0 1rem;
@@ -201,48 +202,4 @@
 }
 .services .service p {
   color: #552931;
-}
-.contact h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  margin-top: 2rem;
-  color: #552931;
-}
-@media screen and (min-width: 1058px) {
-  .contact h1 {
-    margin: 2rem 0;
-  }
-}
-.contact .addresses {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  margin: 5rem 0;
-  height: auto;
-}
-.contact .addresses address {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  margin: 1rem 0;
-}
-@media screen and (min-width: 1058px) {
-  .contact .addresses address {
-    margin: 0 5rem;
-  }
-}
-.contact .addresses address h2 {
-  color: #552931;
-}
-.contact .addresses address h4 {
-  color: #552931;
-}
-@media screen and (min-width: 1058px) {
-  .contact .addresses {
-    flex-flow: row wrap;
-  }
 }

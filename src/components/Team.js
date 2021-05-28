@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { LazyMotion, domAnimation, m } from 'framer-motion'
+import LocationsBanner from './LocationsBanner'
+import Footer from './Footer'
 import '../styles/team.css'
 
 const Team = () => {
@@ -9,6 +11,12 @@ const Team = () => {
       <Navbar />
       <section className="banner">
         <h1>Meet The Team</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+          quisquam repellendus quos consequuntur in, nobis recusandae iste,
+          eaque unde, modi ipsum. Earum rem alias ab ex repudiandae eaque ipsam
+          voluptatibus.
+        </p>
       </section>
       <section className="images">
         <LazyMotion features={domAnimation}>
@@ -86,6 +94,8 @@ const Team = () => {
           />
         </LazyMotion>
       </section>
+      <LocationsBanner />
+      <Footer />
     </>
   )
 }

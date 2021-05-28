@@ -1,11 +1,22 @@
 import React from 'react'
 import Navbar from './Navbar'
 import '../styles/ourWork.css'
+import Button from './Button'
+import LocationsBanner from './LocationsBanner'
+import Footer from './Footer'
 
 const OurWork = () => {
   return (
     <div>
       <Navbar />
+      <h1>Roofing Projects Nationwide</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo voluptatum
+        deserunt alias facilis eligendi ipsa, quam necessitatibus assumenda ab
+        iusto fuga inventore incidunt blanditiis tempora similique, voluptates
+        id magnam totam!
+      </p>
+      <Button />
       <section className="images">
         <img src="./photos/roofing-small/roofing1.webp" alt="roofing" />
         <img src="./photos/roofing-small/roofing2.webp" alt="roofing" />
@@ -35,6 +46,8 @@ const OurWork = () => {
         <img src="./photos/roofing-small/roofing26.webp" alt="roofing" />
         <img src="./photos/roofing-small/roofing27.webp" alt="roofing" />
       </section>
+      <LocationsBanner />
+      <Footer />
     </div>
   )
 }
