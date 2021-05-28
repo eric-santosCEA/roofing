@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <div className="hero">
+      <div className="about-hero">
         <img src="../photos/roofing-large/roofing4.webp" alt="home" />
         <h1>
           The Perfect Choice for Your Residential or Commercial Roofing Needs
