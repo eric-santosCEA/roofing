@@ -21,22 +21,30 @@
   flex-flow: column;
   color: whitesmoke;
   height: 100vh;
-  margin: 0 1rem;
-  background-image: url('../images/roofing2-main.webp');
-  background-position: center;
-  /* Center the image */
+  width: auto;
+  background-image: url('../images/roofing3-main.jpg');
   background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-}
-@media screen and (min-width: 1058px) {
-  .hero {
-    width: 50%;
-    margin: 0 25%;
-  }
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100rem;
 }
 .hero h4 {
   padding: 0 1rem;
+}
+.hero .certifications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.hero .certifications img {
+  height: 7rem;
+}
+@media screen and (min-width: 1058px) {
+  .hero .certifications img {
+    margin: 1rem 1rem 15rem 1rem;
+    height: 10rem;
+  }
 }
 .banner {
   display: flex;

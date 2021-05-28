@@ -19,17 +19,29 @@
   flex-flow: column;
   color: whitesmoke;
   height: 100vh;
-  margin: 0 1rem;
-  background-image: url('../images/roofing2-main.webp');
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  width: auto;
+  background-image: url('../images/roofing3-main.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100rem;
   @media screen and (min-width: 1058px) {
-    width: 50%;
-    margin: 0 25%;
   }
   h4 {
     padding: 0 1rem;
+  }
+  .certifications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    img {
+      height: 7rem;
+      @media screen and (min-width: 1058px) {
+        margin: 1rem 1rem 15rem 1rem;
+        height: 10rem;
+      }
+    }
   }
 }
 .banner {

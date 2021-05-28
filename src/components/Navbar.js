@@ -18,10 +18,12 @@ const Navbar = () => {
   return (
     <>
       <Link to="/">
-        <img
+        <motion.img
           src="./photos/roofing-small/roofing50x50.webp"
           alt="logo"
           className="logo"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
         />
       </Link>
 

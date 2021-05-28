@@ -2,33 +2,61 @@ import React, { lazy } from 'react'
 import '../styles/home.css'
 import { GoLocation } from 'react-icons/go'
 import { RiFilePaperLine } from 'react-icons/ri'
+import { motion } from 'framer-motion'
 import Footer from './Footer'
+
 const Navbar = lazy(() => import('./Navbar.js'))
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="report">
+      <motion.div
+        className="report"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+      >
         <h4>Tap to report a leak or request service</h4>
-      </div>
+      </motion.div>
       <div className="hero">
         <h1>CEA Roofing</h1>
         <h4>
           The Perfect Choice for Your Residential or Commercial Roofing Needs
         </h4>
+        <div className="certifications">
+          <motion.img
+            src="./photos/certifications/gaf.png"
+            alt="gaf certification"
+            animate={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}
+          />
+          <motion.img
+            src="./photos/certifications/SystemPlus.png"
+            alt="System Plus certification"
+            animate={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}
+          />
+        </div>
       </div>
       <section className="banner">
-        <div className="location">
+        <motion.div
+          className="location"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
           <GoLocation size="2rem" />
           <h1>Our Location</h1>
           <h4>Roofing services in your area</h4>
-        </div>
-        <div className="inspection">
+        </motion.div>
+        <motion.div
+          className="inspection"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
           <RiFilePaperLine size="2rem" />
           <h1>Free Tarp Installations</h1>
           <h4>Schedule free</h4>
-        </div>
+        </motion.div>
       </section>
       <section className="about">
         <h1>About Us</h1>
@@ -45,7 +73,9 @@ const Home = () => {
           doloribus quia numquam atque, aliquam iste consequuntur, ipsum quos a
           molestiae enim?
         </p>
-        <button>Reach out to us</button>
+        <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+          Reach out to us
+        </motion.button>
       </section>
       <section className="systems">
         <h4>Commercial</h4>
