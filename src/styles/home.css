@@ -29,6 +29,11 @@
   background-size: 100rem;
   margin: 1rem;
 }
+@media screen and (min-width: 1058px) {
+  .hero {
+    height: 80vh;
+  }
+}
 .hero h4 {
   padding: 0 1rem;
 }
