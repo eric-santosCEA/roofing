@@ -1,7 +1,13 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/navbar.css'
+import { motion } from 'framer-motion'
 import { AiOutlineMenu } from 'react-icons/ai'
+
+const variants = {
+  open: { opacity: 1, y: 0 },
+  closed: { opacity: 0, y: '-100%' },
+}
 
 const Navbar = () => {
   const [active, setActive] = useState(false)
@@ -19,7 +25,11 @@ const Navbar = () => {
         />
       </Link>
 
-      <div className={active ? 'open' : 'links'}>
+      <motion.div
+        className={active ? 'open' : 'links'}
+        animate={active ? 'open' : 'closed'}
+        variants={variants}
+      >
         <Link to="/services" className="link">
           <h1>Services</h1>
         </Link>
@@ -36,7 +46,7 @@ const Navbar = () => {
         <Link to="/about" className="link">
           <h1>Careers</h1>
         </Link>
-      </div>
+      </motion.div>
 
       <div className="icon">
         <AiOutlineMenu size="3rem" onClick={handleClick} />

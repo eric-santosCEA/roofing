@@ -7,6 +7,7 @@
   cursor: pointer;
   background-color: #fef6d8;
   margin: 1rem;
+  color: #552931;
 }
 @media screen and (min-width: 1058px) {
   .report {
@@ -66,9 +67,11 @@
 }
 .banner .location h1 {
   padding: 0 1rem;
+  color: #552931;
 }
 .banner .location h4 {
   padding: 0 2rem;
+  color: #552931;
 }
 .banner .inspection {
   display: flex;
@@ -87,9 +90,11 @@
 }
 .banner .inspection h1 {
   padding: 0 1rem;
+  color: #552931;
 }
 .banner .inspection h4 {
   padding: 0 1rem;
+  color: #552931;
 }
 .about {
   display: flex;
@@ -138,11 +143,23 @@
     margin: 0 15rem;
   }
 }
+.systems h4 {
+  color: #552931;
+}
+.systems h1 {
+  color: #552931;
+}
 .systems .types {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+}
+.systems .types h4 {
+  color: #552931;
+}
+.systems .types p {
+  color: #552931;
 }
 .services {
   display: flex;
@@ -157,11 +174,23 @@
     margin: 0 15rem;
   }
 }
+.services h4 {
+  color: #552931;
+}
+.services h1 {
+  color: #552931;
+}
 .services .service {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+}
+.services .service h4 {
+  color: #552931;
+}
+.services .service p {
+  color: #552931;
 }
 .contact h1 {
   display: flex;
@@ -169,6 +198,7 @@
   align-items: center;
   flex-flow: column;
   margin-top: 2rem;
+  color: #552931;
 }
 @media screen and (min-width: 1058px) {
   .contact h1 {
@@ -194,6 +224,12 @@
   .contact .addresses address {
     margin: 0 5rem;
   }
+}
+.contact .addresses address h2 {
+  color: #552931;
+}
+.contact .addresses address h4 {
+  color: #552931;
 }
 @media screen and (min-width: 1058px) {
   .contact .addresses {
