@@ -18,7 +18,7 @@ const Home = () => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >
-        <h4>Tap to report a leak or request service</h4>
+        <h4>Get Your Free Roof Inspection</h4>
       </motion.div>
       <div className="hero">
         <h1>CEA Roofing</h1>
@@ -62,18 +62,12 @@ const Home = () => {
       </section>
       <section className="about">
         <h1>About Us</h1>
-        <h4>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
-          asperiores, incidunt eveniet harum minima vitae porro eaque. Iusto,
-          eaque dolor possimus pariatur ex error excepturi consectetur, totam
-          earum adipisci labore.
-        </h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          et, omnis enim eveniet quidem tempore dolore doloremque error sed,
-          vitae esse expedita sequi qui accusamus aspernatur sunt? Vero
-          doloribus quia numquam atque, aliquam iste consequuntur, ipsum quos a
-          molestiae enim?
+          CEA Contractors LLC specializes in assisting property owners with
+          their roofing and handyman needs. By providing genuine and quality
+          work, as well as fast, reliable and trustworthy service. We strive to
+          provide excellent work and the best customer service available. We
+          make our customers our top priority.
         </p>
         <Button />
       </section>

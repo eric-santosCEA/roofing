@@ -1,3 +1,12 @@
+@media screen and (min-width: 1058px) {
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 100vh;
+  }
+}
 .contact h1 {
   display: flex;
   justify-content: center;

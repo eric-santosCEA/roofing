@@ -19,9 +19,11 @@ const Navbar = () => {
     <>
       <Link to="/">
         <motion.img
-          src="./photos/roofing-small/logo50x50.webp"
+          src="./photos/roofing-large/roofing-logo.png"
           alt="logo"
           className="logo"
+          height="50"
+          width="300"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         />

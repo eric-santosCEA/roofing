@@ -143,6 +143,8 @@
 }
 @media screen and (min-width: 1058px) {
   .about p {
+    font-size: 1.5rem;
+    color: whitesmoke;
     padding: 1rem 20rem;
   }
 }

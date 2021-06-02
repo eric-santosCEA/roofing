@@ -13,7 +13,7 @@ const LocationsBanner = () => {
             <br /> El Paso, TX 79912
           </h4>
           <h4>Phone: (915) 201-2631</h4>
-          <a href="mailto:support@joincea.com">
+          <a href="mailto:support@joincea.com?subject=Roof Evaluation">
             <h4>support@joincea.com</h4>
           </a>
           <a href="tel:+13115552368">(311) 555-2368</a>
@@ -25,7 +25,7 @@ const LocationsBanner = () => {
             <br /> STE 1260 Houston, TX 77040
           </h4>
           <h4>Phone: (915) 201-2631</h4>
-          <a href="mailto:support@joincea.com">
+          <a href="mailto:support@joincea.com?subject=Roof Evaluation">
             <h4>support@joincea.com</h4>
           </a>
           <a href="tel:+13115552368">(311) 555-2368</a>
@@ -34,7 +34,7 @@ const LocationsBanner = () => {
           <h2>Arizona HQ Office</h2>
           <h4>56th PI, Scottsdale, AZ 85257</h4>
           <h4>Phone: (915) 201-2631</h4>
-          <a href="mailto:support@joincea.com">
+          <a href="mailto:support@joincea.com?subject=Roof Evaluation">
             <h4>support@joincea.com</h4>
           </a>
           <a href="tel:+13115552368">(311) 555-2368</a>
@@ -46,7 +46,7 @@ const LocationsBanner = () => {
             <br /> Thonotosassa, FL 33592
           </h4>
           <h4>Phone: (915) 201-2631</h4>
-          <a href="mailto:support@joincea.com">
+          <a href="mailto:support@joincea.com?subject=Roof Evaluation">
             <h4>support@joincea.com</h4>
           </a>
           <a href="tel:+13115552368">(311) 555-2368</a>
@@ -58,7 +58,7 @@ const LocationsBanner = () => {
             <br /> Torence, CA 90502
           </h4>
           <h4>Phone: (915) 201-2631</h4>
-          <a href="mailto:support@joincea.com">
+          <a href="mailto:support@joincea.com?subject=Roof Evaluation">
             <h4>support@joincea.com</h4>
           </a>
           <a href="tel:+13115552368">(311) 555-2368</a>
