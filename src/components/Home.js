@@ -3,6 +3,7 @@ import '../styles/home.css'
 import { GoLocation } from 'react-icons/go'
 import { RiFilePaperLine } from 'react-icons/ri'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import LocationsBanner from './LocationsBanner'
 import Button from './Button'
@@ -13,13 +14,15 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <motion.div
-        className="report"
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-      >
-        <h4>Get Your Free Roof Inspection</h4>
-      </motion.div>
+      <Link to="contact">
+        <motion.div
+          className="report"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          <h4 className="report-link">Get Your Free Roof Inspection</h4>
+        </motion.div>
+      </Link>
       <div className="hero">
         <h1>CEA Roofing</h1>
         <h4>
